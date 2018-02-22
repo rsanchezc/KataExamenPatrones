@@ -6,7 +6,12 @@ public class ProcesarRomano {
 		int numeroConvertido = 0;
 		
 		if (romano.length()!=0) {						
-
+			switch(romano) {
+			
+			case "I":				
+					numeroConvertido=1;
+					break;							
+			}
 		}
 		
 		return numeroConvertido;
