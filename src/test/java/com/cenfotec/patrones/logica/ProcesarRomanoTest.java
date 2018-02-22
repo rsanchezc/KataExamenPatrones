@@ -7,7 +7,7 @@ import org.junit.Test;
 public class ProcesarRomanoTest {
 
 	@Test
-	public void test() {
+	public void testRomanoVacio() {
 		ProcesarRomano convierteTest = new ProcesarRomano();
 		assertEquals(0, convierteTest.convierte(""),0);
 	}
