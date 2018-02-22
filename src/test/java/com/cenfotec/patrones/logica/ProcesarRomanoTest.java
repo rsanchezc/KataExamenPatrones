@@ -21,6 +21,12 @@ public class ProcesarRomanoTest {
 	@Test
 	public void testRomanoII() {
 		ProcesarRomano convierteTest = new ProcesarRomano();
-		assertEquals(1, convierteTest.convierte("II"),0);
+		assertEquals(2, convierteTest.convierte("II"),0);
+	}
+	
+	@Test
+	public void testRomanoIII() {
+		ProcesarRomano convierteTest = new ProcesarRomano();
+		assertEquals(3, convierteTest.convierte("III"),0);
 	}
 }
