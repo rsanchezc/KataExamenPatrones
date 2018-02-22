@@ -47,4 +47,10 @@ public class ProcesarRomanoTest {
 		ProcesarRomano convierteTest = new ProcesarRomano();
 		assertEquals(10, convierteTest.convierte("X"),0);
 	}
+	
+	@Test
+	public void testRomanoL() {
+		ProcesarRomano convierteTest = new ProcesarRomano();
+		assertEquals(50, convierteTest.convierte("L"),0);
+	}
 }

@@ -22,6 +22,10 @@ public class ProcesarRomano {
 				
 				case 'X':
 						digitoConvertido=10;
+						break;				
+				
+				case 'L':
+						digitoConvertido=50;
 						break;
 				}
 									
