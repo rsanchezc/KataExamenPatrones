@@ -27,6 +27,18 @@ public class ProcesarRomano {
 				case 'L':
 						digitoConvertido=50;
 						break;
+						
+				case 'C':
+						digitoConvertido=100;
+						break;
+						
+				case 'D':
+						digitoConvertido=500;
+						break;
+						
+				case 'M':
+						digitoConvertido=1000;
+						break;
 				}
 									
 				numeroConvertido = numeroConvertido + digitoConvertido;								
