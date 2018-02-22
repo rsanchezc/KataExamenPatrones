@@ -19,14 +19,18 @@ public class ProcesarRomano {
 				case 'V':
 						digitoConvertido=5;
 						break;
-				}
-				numeroConvertido = numeroConvertido + digitoConvertido;				
 				
+				case 'X':
+						digitoConvertido=10;
+						break;
+				}
+									
+				numeroConvertido = numeroConvertido + digitoConvertido;								
 			}
 		}
 			
 		if (numeroConvertido == 4) {
-			numeroConvertido=0;
+			numeroConvertido = 0;
 			System.out.println("Error: numero romano " + romano + " invalido");			
 		} 
 		
