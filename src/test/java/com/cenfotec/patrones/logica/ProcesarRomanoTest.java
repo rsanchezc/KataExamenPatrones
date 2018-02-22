@@ -107,4 +107,10 @@ public class ProcesarRomanoTest {
 		ProcesarRomano convierteTest = new ProcesarRomano();
 		assertEquals(161, convierteTest.convierte("CLXI"),0);
 	}
+	
+	@Test
+	public void testRomanoValidoDescendente() {
+		ProcesarRomano convierteTest = new ProcesarRomano();
+		assertEquals(0, convierteTest.convierte("XXL"),0);
+	}
 }
