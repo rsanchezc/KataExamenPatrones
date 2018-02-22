@@ -13,15 +13,19 @@ public class ProcesarRomano {
 				switch(romano.charAt(i)) {
 				
 				case 'I':				
-						digitoConvertido=1;
-						
+						digitoConvertido=1;						
 						break;							
+				
+				case 'V':
+						digitoConvertido=5;
+						break;
 				}
 				numeroConvertido = numeroConvertido + digitoConvertido;				
 				
 			}
 		}
-		if (numeroConvertido==4) {
+			
+		if (numeroConvertido == 4) {
 			numeroConvertido=0;
 			System.out.println("Error: numero romano " + romano + " invalido");			
 		} 
