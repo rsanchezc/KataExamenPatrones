@@ -29,4 +29,10 @@ public class ProcesarRomanoTest {
 		ProcesarRomano convierteTest = new ProcesarRomano();
 		assertEquals(3, convierteTest.convierte("III"),0);
 	}
+	
+	@Test
+	public void testRomanoIIII() {
+		ProcesarRomano convierteTest = new ProcesarRomano();
+		assertEquals(0, convierteTest.convierte("IIII"),0);
+	}
 }

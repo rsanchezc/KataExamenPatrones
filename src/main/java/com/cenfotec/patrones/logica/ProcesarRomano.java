@@ -7,17 +7,24 @@ public class ProcesarRomano {
 		
 		if (romano.length()!=0) {
 			int digitoConvertido = 0;
-			
-			for (int i=0; i <romano.length(); i++) {
+						
+			for (int i=0; i <romano.length(); i++) {				
+				
 				switch(romano.charAt(i)) {
 				
 				case 'I':				
 						digitoConvertido=1;
+						
 						break;							
 				}
-				numeroConvertido = numeroConvertido + digitoConvertido;
+				numeroConvertido = numeroConvertido + digitoConvertido;				
+				
 			}
 		}
+		if (numeroConvertido==4) {
+			numeroConvertido=0;
+			System.out.println("Error: numero romano " + romano + " invalido");			
+		} 
 		
 		return numeroConvertido;
 	}
