@@ -71,4 +71,40 @@ public class ProcesarRomanoTest {
 		ProcesarRomano convierteTest = new ProcesarRomano();
 		assertEquals(1000, convierteTest.convierte("M"),0);
 	}
+	
+	@Test
+	public void testRomanoPruebaLX() {
+		ProcesarRomano convierteTest = new ProcesarRomano();
+		assertEquals(60, convierteTest.convierte("LX"),0);
+	}
+	
+	@Test
+	public void testRomanoPruebaXVI() {
+		ProcesarRomano convierteTest = new ProcesarRomano();
+		assertEquals(16, convierteTest.convierte("XVI"),0);
+	}
+	
+	@Test
+	public void testRomanoPruebaVIII() {
+		ProcesarRomano convierteTest = new ProcesarRomano();
+		assertEquals(8, convierteTest.convierte("VIII"),0);
+	}
+	
+	@Test
+	public void testRomanoPruebaXXI() {
+		ProcesarRomano convierteTest = new ProcesarRomano();
+		assertEquals(21, convierteTest.convierte("XXI"),0);
+	}
+	
+	@Test
+	public void testRomanoPruebaCI() {
+		ProcesarRomano convierteTest = new ProcesarRomano();
+		assertEquals(101, convierteTest.convierte("CI"),0);
+	}
+	
+	@Test
+	public void testRomanoPruebaCLXI() {
+		ProcesarRomano convierteTest = new ProcesarRomano();
+		assertEquals(161, convierteTest.convierte("CLXI"),0);
+	}
 }

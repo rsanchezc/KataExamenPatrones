@@ -8,7 +8,7 @@ public class ProcesarRomano {
 		if (romano.length()!=0) {
 			int digitoConvertido = 0;
 						
-			for (int i=0; i <romano.length(); i++) {				
+			for (int i=0; i <romano.length(); i++) {										
 				
 				switch(romano.charAt(i)) {
 				
